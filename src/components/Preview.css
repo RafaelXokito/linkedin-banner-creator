@@ -1,0 +1,58 @@
+.banner {
+    width: 1128px;
+    height: 191px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos-container::before {
+    content: "";
+    display: inline-block;
+    width: 85px; /* Same width as one logo rectangle */
+    height: 85px; /* Same height as one logo rectangle */
+}
+
+.logo-bg {
+    width: 85px;
+    height: 85px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    /* Some space between the logos */
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-spacer {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+}

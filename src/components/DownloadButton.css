@@ -1,0 +1,13 @@
+.download-btn {
+    padding: 15px 30px;
+    background-color: #0077b5; /* LinkedIn blue for a more integrated feel */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #005582; /* A darker shade for hover */
+}
